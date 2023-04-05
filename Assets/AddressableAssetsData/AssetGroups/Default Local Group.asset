@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 051c413adb14c43fda578d8a4a344944
+  m_SerializeEntries:
+  - m_GUID: 30de34a35a4305c4498f476c8678d541
+    m_Address: SM_Alcove_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 92b9500dcd2ea724780127ee172ee9a7
+    m_Address: SM_Archway_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f69fa572bedaac24b813b2dd34fce7b0
+    m_Address: SM_Bench_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a44cccc20f3187546becc81725456fb2
+    m_Address: SM_Game_Piramid_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b50afe5616a95e4d8fcb29f08b823fa
+    m_Address: SM_Game_Stairs_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 189a0b5ee84cb454e98d2835383607d1
+    m_Address: SM_Sandbox_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd6a3b627ddc2df4d89542b893289c52
+    m_Address: SM_Tree_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ead76e3a9a32299448dfa6d8122b482e
+    m_Address: SM_Tree_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6a3bea1dd0263bf43861bde07f3af72f
+    m_Address: SM_Tree_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 631214fbbb4d741e0bbba6657cea2af3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 695029865b39d41e995a93b2055a0d4b, type: 2}
+    - {fileID: 11400000, guid: 7643718c9c05c49af93762f49a4d9e93, type: 2}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f313387ee6d347d1b3bb739647fa4ab, type: 3}
+  m_Name: GameSceneInstaller
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 5459352442332074349, guid: 97db2e83d42f646be835fe4bad27ea43, type: 3}
+  playerCameraPrefab: {fileID: 3962407101256834361, guid: 351444995985c48638fb5b2e172a2850, type: 3}
+  gameSceneUiViewPrefab: {fileID: 4894295159706509554, guid: a660989441f2a4b10b5a79a5354824f2, type: 3}

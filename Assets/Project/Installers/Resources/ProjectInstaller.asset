@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06fc10f908444cf3b9ce485ff5bc741, type: 3}
+  m_Name: ProjectInstaller
+  m_EditorClassIdentifier: 
+  loadingViewControllerPrefab: {fileID: 6031555246391988090, guid: 81e87240df4bc42ff99814e8b1c05a90, type: 3}
+  popupViewPrefab: {fileID: 4050438692236640629, guid: 86b13a394ba524a63b0c0bd8751573ac, type: 3}

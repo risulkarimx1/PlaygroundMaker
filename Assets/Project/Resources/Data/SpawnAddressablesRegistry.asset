@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cee2189d05348a3bfbc70c548fe96f6, type: 3}
+  m_Name: SpawnAddressablesRegistry
+  m_EditorClassIdentifier: 
+  spawnableObjects:
+  - name: Alcove
+    assetAddress: SM_Alcove_01
+    thumbnail: {fileID: 21300000, guid: b5de878370e834c97878b8905bb08808, type: 3}
+  - name: Archway
+    assetAddress: SM_Archway_01
+    thumbnail: {fileID: 21300000, guid: d242d4171b1654c1ab1b6296f9ab90f6, type: 3}
+  - name: Bench
+    assetAddress: SM_Bench_02
+    thumbnail: {fileID: 21300000, guid: 38dfcdf3988f74e32945da81b5013b92, type: 3}
+  - name: Piramid
+    assetAddress: SM_Game_Piramid_01
+    thumbnail: {fileID: 21300000, guid: 7661578df5eda4156bb7d1caa23191b6, type: 3}
+  - name: Stairs
+    assetAddress: SM_Game_Stairs_01
+    thumbnail: {fileID: 21300000, guid: bc30494daa7af4d90a7bbe6a3747fbb6, type: 3}
+  - name: Sandbox
+    assetAddress: SM_Sandbox_01
+    thumbnail: {fileID: 21300000, guid: 74b7248ba59184e688e33fa90ccd0625, type: 3}
+  - name: Tree1
+    assetAddress: SM_Tree_01
+    thumbnail: {fileID: 21300000, guid: c2946ebaddc7c4be19cf9e5bf59a4b94, type: 3}
+  - name: Tree2
+    assetAddress: SM_Tree_02
+    thumbnail: {fileID: 21300000, guid: e0496779564e54437988c157859d794b, type: 3}
+  - name: Tree3
+    assetAddress: SM_Tree_03
+    thumbnail: {fileID: 21300000, guid: 3c87718cbc9384970b3eebb19d2705e5, type: 3}

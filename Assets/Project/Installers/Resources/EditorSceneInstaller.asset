@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c2824d4c5b647379cdab3f8a2d9e0d, type: 3}
+  m_Name: EditorSceneInstaller
+  m_EditorClassIdentifier: 
+  editorSceneUiViewPrefab: {fileID: 1796042490296034124, guid: 6456492009e7c4f87a5d23cd393ec7ae, type: 3}
+  inspectorViewPrefab: {fileID: 5757191248752725468, guid: 2211cee0761354b1aab3af248291f146, type: 3}
+  spawnerButtonPrefab: {fileID: 879443713320318395, guid: aa990ee0ffaee4654b4c09272e2133da, type: 3}
+  groundHighlightPrefab: {fileID: 2410910637678165264, guid: 900994c2b8f0040ed8d0c092e12a09db, type: 3}
+  cameraRigPrefab: {fileID: 1441277729550899521, guid: 2acda943bc3fe4a3aa9d2532ffebd755, type: 3}
