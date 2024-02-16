@@ -5,9 +5,7 @@ Playground Maker is a Unity project built to fulfill the requirements outlined i
 
 As a theme for arts, I chose a story where a kid is asking you to design a playground for him/her. 
 
-![Alt text](DocumentationImages/menu1.jpg)
-![Alt text](DocumentationImages/menu2.jpg)
-![Alt text](DocumentationImages/menu3.jpg)
+![Alt text](DocumentationImages/menu.jpg)
 
 ## Key Features
 - Dependency Injection: Zenject is extensively used throughout the project for dependency injection, ensuring a clean and maintainable architecture. This allows for easy component swapping and testability.
@@ -47,8 +45,8 @@ In this project, there are four main installers in the Assets/Project/Installers
 - GameSceneInstaller: This installer is responsible for setting up the dependencies and bindings specific to the GameScene. Similar to the EditorSceneInstaller, it binds the necessary services, configuration data, and other components required for the PlayScene.
 
 ## Project Data (Tools for Designers)
-Two scriptable object instances act as data containers for the project, located in 'Assets/Projects/Resources/Data' folder:
-- SpawnAddressablesRegistry: The scriptable object that keeps reference to the spawnable objects in the scene. Some items from a free Unity asset store asset were picked and converted into addressables. It also keeps a place for thumbnails. The registry is also a tool for game designers to extend the editor scene further with many different objects.
+Two scriptable object instances act as data containers for the project, located in `Assets/Projects/Resources/Data` folder:
+- SpawnAddressablesRegistry: The scriptable object that keeps a reference to the spawnable objects in the scene. Some items from a free Unity asset store asset were picked and converted into addressable. It also keeps a place for thumbnails. The registry is also a tool for game designers to extend the editor scene further with many different objects.
 - CameraConfig: This is a settings data holder, typical for better user experience. Designers can manipulate the overall smoothness of the editor scene camera.
 
 ## Unit Tests
