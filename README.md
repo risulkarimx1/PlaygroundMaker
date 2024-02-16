@@ -28,7 +28,7 @@ All scenes are placed in the Assets/Project/Scenes folder. There are three scene
 - Game Scene: For playing on the level.
 
 ## Project Folder Structure
-![Project](DocumentationImages/Project.jpg)
+![Project](Project.jpg)
 - The user assets and code are placed in the folder named Assets/Project. 
 - The project uses several plugins such as Zenject or UniRx, etc. They are placed in the Plugins directory. 
 - All the Assetstore assets are placed in the folder named "Third-party".
