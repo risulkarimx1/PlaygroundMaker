@@ -41,19 +41,19 @@ The Scripts folder has further subfolders based on the scene and also their resp
 
 ## Installers (Project Entry Point)
 In this project, there are four main installers in the Assets/Project/Installers/Resources directory.
-- Project Installer: The common scripts and objects container. The key responsibility is to have a PopupUi instance that lets create different types of popups in different places of the game, which is a very usual casual game behavior. It also maintains a scene name registry to load JSON scenes to PlayScene, an addressable registry, etc.
+- Project Installer: The common scripts and objects container. The key responsibility is to have a PopupUi instance that let's create different types of popups in different places of the game, which is a very usual casual game behavior. It also maintains a scene name registry to load JSON scenes to PlayScene, an addressable registry, etc.
 - MenuSceneInstaller: Key responsibility to load menu UI-related prefabs in the scene and load scene selector.
 - EditorSceneInstaller: This installer is responsible for configuring the dependencies and bindings specific to the EditorScene. It includes bindings for services like the SceneInteractionService, CameraInputHandler, and SpawnCommand. It also binds the necessary configuration data through ScriptableObject assets.- 
 - GameSceneInstaller: This installer is responsible for setting up the dependencies and bindings specific to the GameScene. Similar to the EditorSceneInstaller, it binds the necessary services, configuration data, and other components required for the PlayScene.
 
 ## Project Data (Tools for Designers)
 Two scriptable object instances act as data containers for the project, located in 'Assets/Projects/Resources/Data' folder:
-- SpawnAddressablesRegistry: The scriptable object that keeps reference of the spawnable objects in the scene. Some items from a free Unity asset store asset were picked and converted into addressables. It also keeps a place for thumbnails. The registry is also a tool for game designers to extend the editor scene further with many different objects.
+- SpawnAddressablesRegistry: The scriptable object that keeps reference to the spawnable objects in the scene. Some items from a free Unity asset store asset were picked and converted into addressables. It also keeps a place for thumbnails. The registry is also a tool for game designers to extend the editor scene further with many different objects.
 - CameraConfig: This is a settings data holder, typical for better user experience. Designers can manipulate the overall smoothness of the editor scene camera.
 
 ## Unit Tests
 There are three Unit test scripts which test some of the project's functionalities:
-- 'ConfigsTests' ensure the placement of the configs in the right folder.
+- 'ConfigsTests' ensures the placement of the configs in the right folder.
 - 'PersistenceSystemTest' is the test written for file-saving operation tests.
 - 'SpawnedItemsRegistryTests' help test object spawning and tracking.
 More tests are very easy to add tests due to the presence of ZenjectTestFixture in the project
