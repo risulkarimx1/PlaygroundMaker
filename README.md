@@ -5,7 +5,7 @@ Playground Maker is a Unity project built to fulfill the requirements outlined i
 
 As a theme for arts, I chose a story where a kid is asking you to design a playground for him/her. 
 
-![Alt text](DocumentationImages/menu.jpg)
+![Menu](Menu.jpg)
 
 ## Key Features
 - Dependency Injection: Zenject is extensively used throughout the project for dependency injection, ensuring a clean and maintainable architecture. This allows for easy component swapping and testability.
@@ -28,7 +28,7 @@ All scenes are placed in the Assets/Project/Scenes folder. There are three scene
 - Game Scene: For playing on the level.
 
 ## Project Folder Structure
-![Alt text](DocumentationImages/project.jpg)
+![Project](DocumentationImages/Project.jpg)
 - The user assets and code are placed in the folder named Assets/Project. 
 - The project uses several plugins such as Zenject or UniRx, etc. They are placed in the Plugins directory. 
 - All the Assetstore assets are placed in the folder named "Third-party".
