@@ -1,7 +1,7 @@
 # Playground Maker (ROBLOX Styled Game Editor)
 A simple Level Editor project to demonstrate various design patterns and OOP concepts. 
 
-Playground Maker is a Unity project built to fulfill the requirements outlined in the test document. The primary goal is to create a versatile level design tool packed with numerous scene elements and the ability to modify their position, rotation, and scale, as well as undo any changes. Once the level is designed, you can jump in and play it in a separate scene.
+Playground Maker is a Unity project with the primary goal to create a versatile level design tool packed with numerous scene elements and the ability to modify their position, rotation, and scale, as well as undo any changes. Once the level is designed, you can jump in and play it in a separate scene.
 
 As a theme for arts, I chose a story where a kid is asking you to design a playground for him/her. 
 
